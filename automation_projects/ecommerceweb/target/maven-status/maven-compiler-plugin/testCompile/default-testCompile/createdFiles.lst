@@ -1,0 +1,17 @@
+tasks\Load.class
+tasks\AddProduct.class
+tasks\Select_women_jackets.class
+tests\RegisterUser.class
+questions\TheMessageDisplayed.class
+tasks\Click_create_an_account.class
+tests\UserLogin.class
+questions\TheMessageforABuyDisplayed.class
+ui\StoreMainPage.class
+tests\Make_a_Buy.class
+ui\UserAccount\UserAccountElements.class
+tasks\Make_checkout.class
+ui\MakeBuy_elements.class
+questions\TheTextDisplayed.class
+tasks\Register_user.class
+tasks\LoginAccount.class
+abilities\Login.class

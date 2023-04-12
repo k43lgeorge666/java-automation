@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: CucumberTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 2, Time elapsed: 15.641 sec <<< FAILURE!
+Given Pepito wants to have an account(Scenario: client sign up successfully)  Time elapsed: 0.014 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Australia
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'DESKTOP-TKIFE1R', ip: '192.168.20.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:284)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:187)
+	at PageObjects.SignUpPageObject.SelectCountry(SignUpPageObject.java:60)
+	at StepDefinitions.pepito_wants_to_have_an_account(StepDefinitions.java:24)
+	at ?.Given Pepito wants to have an account(signup.feature:4)
+
+Scenario: client sign up successfully  Time elapsed: 0.017 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Australia
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'DESKTOP-TKIFE1R', ip: '192.168.20.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:284)
+	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:187)
+	at PageObjects.SignUpPageObject.SelectCountry(SignUpPageObject.java:60)
+	at StepDefinitions.pepito_wants_to_have_an_account(StepDefinitions.java:24)
+	at ?.Given Pepito wants to have an account(signup.feature:4)
+

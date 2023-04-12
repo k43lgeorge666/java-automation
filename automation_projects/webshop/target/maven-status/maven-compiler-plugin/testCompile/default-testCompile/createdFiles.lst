@@ -1,0 +1,8 @@
+tasks\Load.class
+ui\UserLogin.class
+ui\StoreMainPage.class
+questions\TheUserDisplayed.class
+tests\RegisterAndLogin.class
+web\shop\features\search\package-info.class
+ui\CreateAccount.class
+tasks\RegisterAccount.class

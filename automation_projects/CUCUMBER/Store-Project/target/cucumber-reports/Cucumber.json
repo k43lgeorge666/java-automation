@@ -1,0 +1,308 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8142971600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookDriver.createDriver()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Login for a user account is successfully completed",
+        "description": "",
+        "id": "login-a-user-account;login-for-a-user-account-is-successfully-completed",
+        "after": [
+          {
+            "result": {
+              "duration": 3371165200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookDriver.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4010220100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user open the web application",
+            "match": {
+              "location": "LoginUserSteps.user_opens_the_webapp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 302908100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user selects My Account tab option",
+            "match": {
+              "location": "LoginUserSteps.user_selects_my_account_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 429287100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user selects the Login option",
+            "match": {
+              "location": "LoginUserSteps.user_selects_the_login_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 971793100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user provides email and password",
+            "match": {
+              "location": "LoginUserSteps.user_provides_credentials()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11005800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user should be logged successfully",
+            "match": {
+              "location": "LoginUserSteps.user_should_be_logged()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login a user account",
+    "description": "",
+    "id": "login-a-user-account",
+    "keyword": "Feature",
+    "uri": "LoginUser.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2722396900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookDriver.createDriver()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "register for new user is successfully completed",
+        "description": "",
+        "id": "register-new-user;register-for-new-user-is-successfully-completed",
+        "after": [
+          {
+            "result": {
+              "duration": 3446011700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookDriver.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3485130600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user open the web page",
+            "match": {
+              "location": "RegisterUserSteps.user_opens_the_web_app()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 274564200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user goes to my account tab",
+            "match": {
+              "location": "RegisterUserSteps.user_goes_to_my_account_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 880331200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user selects the Register option",
+            "match": {
+              "location": "RegisterUserSteps.user_selects_the_register_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4290948300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user provides the required information",
+            "match": {
+              "location": "RegisterUserSteps.the_user_provides_the_required_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61296300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user should be notified that the account was created",
+            "match": {
+              "location": "RegisterUserSteps.the_successful_message_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "register new user",
+    "description": "",
+    "id": "register-new-user",
+    "keyword": "Feature",
+    "uri": "Register.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3162061100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookDriver.createDriver()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Update the phone for a user account is successfully completed",
+        "description": "",
+        "id": "update-phone-from-a-user-account;update-the-phone-for-a-user-account-is-successfully-completed",
+        "after": [
+          {
+            "result": {
+              "duration": 3053820600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookDriver.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3193494300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user open the web Page",
+            "match": {
+              "location": "UpdatePhoneSteps.user_open_the_webapp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1653491400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user login into the web application",
+            "match": {
+              "location": "UpdatePhoneSteps.user_login_in_the_webapp()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1382409200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user selects the Edit Account option",
+            "match": {
+              "location": "UpdatePhoneSteps.user_selects_Edit_Account_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 673311600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user write the new phone number",
+            "match": {
+              "location": "UpdatePhoneSteps.user_write_the_new_phone()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31549600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the phone number from the account should be updated",
+            "match": {
+              "location": "UpdatePhoneSteps.the_message_from_the_update_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Update phone from a user account",
+    "description": "",
+    "id": "update-phone-from-a-user-account",
+    "keyword": "Feature",
+    "uri": "UpdatePhone.feature"
+  }
+]

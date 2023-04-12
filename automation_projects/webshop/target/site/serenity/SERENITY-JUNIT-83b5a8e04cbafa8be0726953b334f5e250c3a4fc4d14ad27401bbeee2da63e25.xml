@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="tests.RegisterAndLogin" skipped="0" tests="1" time="30.45" timestamp="2023-01-02 09:38:07"><testcase classname="tests.RegisterAndLogin" name="New user should be registered"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
+tasks.RegisterAccount.performAs(RegisterAccount.java:24)&#13;
+tests.RegisterAndLogin.New_user_should_be_registered(RegisterAndLogin.java:36)&#13;
+</system-err></testcase></testsuite>

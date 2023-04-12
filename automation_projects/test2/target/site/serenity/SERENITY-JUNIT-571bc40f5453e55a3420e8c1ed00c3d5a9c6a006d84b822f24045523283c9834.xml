@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="test2.automation.tests.SearchText" skipped="0" tests="1" time="11.39" timestamp="2022-12-30 10:09:41"><testcase classname="test2.automation.tests.SearchText" name="Search results should show the search text in the title"/></testsuite>

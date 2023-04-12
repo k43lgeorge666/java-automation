@@ -1,0 +1,6 @@
+test1\automation\example1\tasks\OpenTheApplication.class
+test1\automation\example1\ui\SearchBox.class
+test1\automation\example1\tasks\Search.class
+test1\automation\example1\ui\GoogleSearchPage.class
+test1\automation\example1\features\search\package-info.class
+test1\automation\example1\features\search\SearchByKeywordStory.class

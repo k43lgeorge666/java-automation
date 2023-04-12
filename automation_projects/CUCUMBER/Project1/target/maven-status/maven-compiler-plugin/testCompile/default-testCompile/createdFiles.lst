@@ -1,0 +1,6 @@
+PageObjects\SignUpServices.class
+PageObjects\SignUpPageObject.class
+StepDefinitions\StepDefinitions.class
+Util\RandomNumberGenerator.class
+Util\HookDriver.class
+CucumberTest.class
