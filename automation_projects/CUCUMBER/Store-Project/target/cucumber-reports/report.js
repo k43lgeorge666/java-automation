@@ -1,4 +1,76 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("LoginUser.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("LogOffUser.feature");
+formatter.feature({
+  "line": 1,
+  "name": "Logout a user account",
+  "description": "",
+  "id": "logout-a-user-account",
+  "keyword": "Feature"
+});
+formatter.before({
+  "duration": 4063359200,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 3,
+  "name": "Logout for a user account is successfully completed",
+  "description": "",
+  "id": "logout-a-user-account;logout-for-a-user-account-is-successfully-completed",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 4,
+  "name": "user open the webapp",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "the user login in the web application",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 6,
+  "name": "the user selects the Logout option",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 7,
+  "name": "the user should be logout successfully",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LogOffUserSteps.user_open_the_webpage()"
+});
+formatter.result({
+  "duration": 3365964700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LogOffUserSteps.User_login_in_the_web_application()"
+});
+formatter.result({
+  "duration": 1655511800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LogOffUserSteps.User_click_on_the_Logout_option()"
+});
+formatter.result({
+  "duration": 846310600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LogOffUserSteps.User_is_logged_out_successfully()"
+});
+formatter.result({
+  "duration": 42154000,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 3078531400,
+  "status": "passed"
+});
+formatter.uri("LoginUser.feature");
 formatter.feature({
   "line": 1,
   "name": "Login a user account",
@@ -7,7 +79,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 8142971600,
+  "duration": 2799537600,
   "status": "passed"
 });
 formatter.scenario({
@@ -47,39 +119,39 @@ formatter.match({
   "location": "LoginUserSteps.user_opens_the_webapp()"
 });
 formatter.result({
-  "duration": 4010220100,
+  "duration": 2974126600,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginUserSteps.user_selects_my_account_option()"
 });
 formatter.result({
-  "duration": 302908100,
+  "duration": 272799400,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginUserSteps.user_selects_the_login_option()"
 });
 formatter.result({
-  "duration": 429287100,
+  "duration": 391918500,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginUserSteps.user_provides_credentials()"
 });
 formatter.result({
-  "duration": 971793100,
+  "duration": 1041423600,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginUserSteps.user_should_be_logged()"
 });
 formatter.result({
-  "duration": 11005800,
+  "duration": 3948300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 3371165200,
+  "duration": 3283602800,
   "status": "passed"
 });
 formatter.uri("Register.feature");
@@ -91,7 +163,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 2722396900,
+  "duration": 2750398400,
   "status": "passed"
 });
 formatter.scenario({
@@ -131,39 +203,39 @@ formatter.match({
   "location": "RegisterUserSteps.user_opens_the_web_app()"
 });
 formatter.result({
-  "duration": 3485130600,
+  "duration": 3070205400,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterUserSteps.user_goes_to_my_account_tab()"
 });
 formatter.result({
-  "duration": 274564200,
+  "duration": 275211200,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterUserSteps.user_selects_the_register_option()"
 });
 formatter.result({
-  "duration": 880331200,
+  "duration": 1054590700,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterUserSteps.the_user_provides_the_required_information()"
 });
 formatter.result({
-  "duration": 4290948300,
+  "duration": 4118235300,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterUserSteps.the_successful_message_should_be_displayed()"
 });
 formatter.result({
-  "duration": 61296300,
+  "duration": 42367800,
   "status": "passed"
 });
 formatter.after({
-  "duration": 3446011700,
+  "duration": 3294874300,
   "status": "passed"
 });
 formatter.uri("UpdatePhone.feature");
@@ -175,7 +247,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 3162061100,
+  "duration": 3059976700,
   "status": "passed"
 });
 formatter.scenario({
@@ -215,39 +287,39 @@ formatter.match({
   "location": "UpdatePhoneSteps.user_open_the_webapp()"
 });
 formatter.result({
-  "duration": 3193494300,
+  "duration": 3274219700,
   "status": "passed"
 });
 formatter.match({
   "location": "UpdatePhoneSteps.user_login_in_the_webapp()"
 });
 formatter.result({
-  "duration": 1653491400,
+  "duration": 1719137400,
   "status": "passed"
 });
 formatter.match({
   "location": "UpdatePhoneSteps.user_selects_Edit_Account_option()"
 });
 formatter.result({
-  "duration": 1382409200,
+  "duration": 1022237700,
   "status": "passed"
 });
 formatter.match({
   "location": "UpdatePhoneSteps.user_write_the_new_phone()"
 });
 formatter.result({
-  "duration": 673311600,
+  "duration": 724126400,
   "status": "passed"
 });
 formatter.match({
   "location": "UpdatePhoneSteps.the_message_from_the_update_is_displayed()"
 });
 formatter.result({
-  "duration": 31549600,
+  "duration": 36629500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 3053820600,
+  "duration": 3044106500,
   "status": "passed"
 });
 });

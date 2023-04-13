@@ -1,11 +1,14 @@
-PageObjects\RegisterUser\RegisterUserPageObject.class
 StepDefinitions\LoginUser\LoginUserSteps.class
 PageObjects\RegisterUser\RegisterUserServices.class
 StepDefinitions\UpdateAccount\UpdatePhoneSteps.class
+PageObjects\LoginUser\LoginUserPageObject.class
+PageObjects\LogOffUser\LogOffUserServices.class
+PageObjects\LogOffUser\LogOffUserPageObject.class
+Util\HookDriver.class
+PageObjects\RegisterUser\RegisterUserPageObject.class
 StepDefinitions\RegisterUser\RegisterUserSteps.class
 PageObjects\UpdateAccount\UpdatePhoneServices.class
-PageObjects\LoginUser\LoginUserPageObject.class
 PageObjects\LoginUser\LoginUserServices.class
 PageObjects\UpdateAccount\UpdatePhonePageObject.class
-Util\HookDriver.class
+StepDefinitions\LogOffUser\LogOffUserSteps.class
 CucumberTest.class

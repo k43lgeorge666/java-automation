@@ -6,7 +6,97 @@
         "before": [
           {
             "result": {
-              "duration": 8142971600,
+              "duration": 4063359200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookDriver.createDriver()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Logout for a user account is successfully completed",
+        "description": "",
+        "id": "logout-a-user-account;logout-for-a-user-account-is-successfully-completed",
+        "after": [
+          {
+            "result": {
+              "duration": 3078531400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookDriver.quitDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3365964700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user open the webapp",
+            "match": {
+              "location": "LogOffUserSteps.user_open_the_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1655511800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user login in the web application",
+            "match": {
+              "location": "LogOffUserSteps.User_login_in_the_web_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 846310600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user selects the Logout option",
+            "match": {
+              "location": "LogOffUserSteps.User_click_on_the_Logout_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42154000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user should be logout successfully",
+            "match": {
+              "location": "LogOffUserSteps.User_is_logged_out_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Logout a user account",
+    "description": "",
+    "id": "logout-a-user-account",
+    "keyword": "Feature",
+    "uri": "LogOffUser.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2799537600,
               "status": "passed"
             },
             "match": {
@@ -21,7 +111,7 @@
         "after": [
           {
             "result": {
-              "duration": 3371165200,
+              "duration": 3283602800,
               "status": "passed"
             },
             "match": {
@@ -34,7 +124,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4010220100,
+              "duration": 2974126600,
               "status": "passed"
             },
             "line": 4,
@@ -46,7 +136,7 @@
           },
           {
             "result": {
-              "duration": 302908100,
+              "duration": 272799400,
               "status": "passed"
             },
             "line": 5,
@@ -58,7 +148,7 @@
           },
           {
             "result": {
-              "duration": 429287100,
+              "duration": 391918500,
               "status": "passed"
             },
             "line": 6,
@@ -70,7 +160,7 @@
           },
           {
             "result": {
-              "duration": 971793100,
+              "duration": 1041423600,
               "status": "passed"
             },
             "line": 7,
@@ -82,7 +172,7 @@
           },
           {
             "result": {
-              "duration": 11005800,
+              "duration": 3948300,
               "status": "passed"
             },
             "line": 8,
@@ -108,7 +198,7 @@
         "before": [
           {
             "result": {
-              "duration": 2722396900,
+              "duration": 2750398400,
               "status": "passed"
             },
             "match": {
@@ -123,7 +213,7 @@
         "after": [
           {
             "result": {
-              "duration": 3446011700,
+              "duration": 3294874300,
               "status": "passed"
             },
             "match": {
@@ -136,7 +226,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3485130600,
+              "duration": 3070205400,
               "status": "passed"
             },
             "line": 4,
@@ -148,7 +238,7 @@
           },
           {
             "result": {
-              "duration": 274564200,
+              "duration": 275211200,
               "status": "passed"
             },
             "line": 5,
@@ -160,7 +250,7 @@
           },
           {
             "result": {
-              "duration": 880331200,
+              "duration": 1054590700,
               "status": "passed"
             },
             "line": 6,
@@ -172,7 +262,7 @@
           },
           {
             "result": {
-              "duration": 4290948300,
+              "duration": 4118235300,
               "status": "passed"
             },
             "line": 7,
@@ -184,7 +274,7 @@
           },
           {
             "result": {
-              "duration": 61296300,
+              "duration": 42367800,
               "status": "passed"
             },
             "line": 8,
@@ -210,7 +300,7 @@
         "before": [
           {
             "result": {
-              "duration": 3162061100,
+              "duration": 3059976700,
               "status": "passed"
             },
             "match": {
@@ -225,7 +315,7 @@
         "after": [
           {
             "result": {
-              "duration": 3053820600,
+              "duration": 3044106500,
               "status": "passed"
             },
             "match": {
@@ -238,7 +328,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3193494300,
+              "duration": 3274219700,
               "status": "passed"
             },
             "line": 4,
@@ -250,7 +340,7 @@
           },
           {
             "result": {
-              "duration": 1653491400,
+              "duration": 1719137400,
               "status": "passed"
             },
             "line": 5,
@@ -262,7 +352,7 @@
           },
           {
             "result": {
-              "duration": 1382409200,
+              "duration": 1022237700,
               "status": "passed"
             },
             "line": 6,
@@ -274,7 +364,7 @@
           },
           {
             "result": {
-              "duration": 673311600,
+              "duration": 724126400,
               "status": "passed"
             },
             "line": 7,
@@ -286,7 +376,7 @@
           },
           {
             "result": {
-              "duration": 31549600,
+              "duration": 36629500,
               "status": "passed"
             },
             "line": 8,

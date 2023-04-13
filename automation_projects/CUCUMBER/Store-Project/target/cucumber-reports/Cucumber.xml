@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="45.550168">
-<testcase classname="Login a user account" name="Login for a user account is successfully completed" time="17.239351">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="51.305506">
+<testcase classname="Logout a user account" name="Logout for a user account is successfully completed" time="13.051832">
+<system-out><![CDATA[Given user open the webapp..................................................passed
+When the user login in the web application..................................passed
+And the user selects the Logout option......................................passed
+Then the user should be logout successfully.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login a user account" name="Login for a user account is successfully completed" time="10.767357">
 <system-out><![CDATA[Given user open the web application.........................................passed
 When the user selects My Account tab option.................................passed
 And the user selects the Login option.......................................passed
@@ -8,7 +15,7 @@ And the user provides email and password....................................pass
 Then the user should be logged successfully.................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="register new user" name="register for new user is successfully completed" time="15.160679">
+<testcase classname="register new user" name="register for new user is successfully completed" time="14.605883">
 <system-out><![CDATA[Given user open the web page................................................passed
 When the user goes to my account tab........................................passed
 And the user selects the Register option....................................passed
@@ -16,7 +23,7 @@ And the user provides the required information..............................pass
 Then the user should be notified that the account was created...............passed
 ]]></system-out>
 </testcase>
-<testcase classname="Update phone from a user account" name="Update the phone for a user account is successfully completed" time="13.150138">
+<testcase classname="Update phone from a user account" name="Update the phone for a user account is successfully completed" time="12.880434">
 <system-out><![CDATA[Given user open the web Page................................................passed
 When the user login into the web application................................passed
 And the user selects the Edit Account option................................passed
