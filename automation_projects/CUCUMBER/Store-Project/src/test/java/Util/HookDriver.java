@@ -17,6 +17,8 @@ public class HookDriver
                 System.getProperty("user.dir") + "/src/main/resources/Drivers");
         driver = new FirefoxDriver();
         driver.manage().window().maximize();
+
+        //this is the implicit wait
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
     @After
