@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG_test" duration-ms="11362" started-at="2023-04-14T17:30:19 BOT" finished-at="2023-04-14T17:30:30 BOT">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="11362" started-at="2023-04-14T17:30:19 BOT" finished-at="2023-04-14T17:30:30 BOT">
+      <class name="TestNG_test">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:TestNG_test@6e6c3152]" name="testSetup" is-config="true" duration-ms="2356" started-at="2023-04-14T17:30:19 BOT" finished-at="2023-04-14T17:30:21 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="Verify_number_of_countries_in_america()[pri:1, instance:TestNG_test@6e6c3152]" name="Verify_number_of_countries_in_america" duration-ms="5148" started-at="2023-04-14T17:30:21 BOT" finished-at="2023-04-14T17:30:26 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_number_of_countries_in_america -->
+        <test-method status="PASS" signature="Verify_number_of_countries_in_the_world()[pri:2, instance:TestNG_test@6e6c3152]" name="Verify_number_of_countries_in_the_world" duration-ms="3032" started-at="2023-04-14T17:30:26 BOT" finished-at="2023-04-14T17:30:29 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_number_of_countries_in_the_world -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestNG_test@6e6c3152]" name="closeBrowser" is-config="true" duration-ms="795" started-at="2023-04-14T17:30:29 BOT" finished-at="2023-04-14T17:30:30 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestNG_test -->
+    </test> <!-- Command line test -->
+  </suite> <!-- TestNG_test -->
+</testng-results>

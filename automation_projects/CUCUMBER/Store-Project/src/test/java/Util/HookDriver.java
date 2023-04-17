@@ -14,7 +14,7 @@ public class HookDriver
     public static void createDriver()
     {
         System.setProperty("webdriver.firefox.driver",
-                System.getProperty("user.dir") + "/src/main/resources/Drivers");
+                System.getProperty("user.dir") + "/src/main/resources/Drivers/geckodriver.exe");
         driver = new FirefoxDriver();
         driver.manage().window().maximize();
 

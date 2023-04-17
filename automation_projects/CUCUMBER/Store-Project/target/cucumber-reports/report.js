@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 4063359200,
+  "duration": 5490594600,
   "status": "passed"
 });
 formatter.scenario({
@@ -42,32 +42,32 @@ formatter.match({
   "location": "LogOffUserSteps.user_open_the_webpage()"
 });
 formatter.result({
-  "duration": 3365964700,
+  "duration": 4625695300,
   "status": "passed"
 });
 formatter.match({
   "location": "LogOffUserSteps.User_login_in_the_web_application()"
 });
 formatter.result({
-  "duration": 1655511800,
+  "duration": 2567525300,
   "status": "passed"
 });
 formatter.match({
   "location": "LogOffUserSteps.User_click_on_the_Logout_option()"
 });
 formatter.result({
-  "duration": 846310600,
+  "duration": 816128900,
   "status": "passed"
 });
 formatter.match({
   "location": "LogOffUserSteps.User_is_logged_out_successfully()"
 });
 formatter.result({
-  "duration": 42154000,
+  "duration": 46195600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 3078531400,
+  "duration": 3264064600,
   "status": "passed"
 });
 formatter.uri("LoginUser.feature");
@@ -79,7 +79,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 2799537600,
+  "duration": 3003574900,
   "status": "passed"
 });
 formatter.scenario({
@@ -119,39 +119,39 @@ formatter.match({
   "location": "LoginUserSteps.user_opens_the_webapp()"
 });
 formatter.result({
-  "duration": 2974126600,
+  "duration": 3102434200,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginUserSteps.user_selects_my_account_option()"
 });
 formatter.result({
-  "duration": 272799400,
+  "duration": 285319600,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginUserSteps.user_selects_the_login_option()"
 });
 formatter.result({
-  "duration": 391918500,
+  "duration": 411415100,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginUserSteps.user_provides_credentials()"
 });
 formatter.result({
-  "duration": 1041423600,
+  "duration": 936403400,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginUserSteps.user_should_be_logged()"
 });
 formatter.result({
-  "duration": 3948300,
+  "duration": 4832900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 3283602800,
+  "duration": 3120161800,
   "status": "passed"
 });
 formatter.uri("Register.feature");
@@ -163,7 +163,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 2750398400,
+  "duration": 2835871500,
   "status": "passed"
 });
 formatter.scenario({
@@ -203,39 +203,39 @@ formatter.match({
   "location": "RegisterUserSteps.user_opens_the_web_app()"
 });
 formatter.result({
-  "duration": 3070205400,
+  "duration": 4055709800,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterUserSteps.user_goes_to_my_account_tab()"
 });
 formatter.result({
-  "duration": 275211200,
+  "duration": 266670300,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterUserSteps.user_selects_the_register_option()"
 });
 formatter.result({
-  "duration": 1054590700,
+  "duration": 1008128500,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterUserSteps.the_user_provides_the_required_information()"
 });
 formatter.result({
-  "duration": 4118235300,
+  "duration": 4700911300,
   "status": "passed"
 });
 formatter.match({
   "location": "RegisterUserSteps.the_successful_message_should_be_displayed()"
 });
 formatter.result({
-  "duration": 42367800,
+  "duration": 46012000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 3294874300,
+  "duration": 3316733900,
   "status": "passed"
 });
 formatter.uri("UpdatePhone.feature");
@@ -247,7 +247,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 3059976700,
+  "duration": 2718221600,
   "status": "passed"
 });
 formatter.scenario({
@@ -287,39 +287,39 @@ formatter.match({
   "location": "UpdatePhoneSteps.user_open_the_webapp()"
 });
 formatter.result({
-  "duration": 3274219700,
+  "duration": 4604145400,
   "status": "passed"
 });
 formatter.match({
   "location": "UpdatePhoneSteps.user_login_in_the_webapp()"
 });
 formatter.result({
-  "duration": 1719137400,
+  "duration": 1690155300,
   "status": "passed"
 });
 formatter.match({
   "location": "UpdatePhoneSteps.user_selects_Edit_Account_option()"
 });
 formatter.result({
-  "duration": 1022237700,
+  "duration": 1074949200,
   "status": "passed"
 });
 formatter.match({
   "location": "UpdatePhoneSteps.user_write_the_new_phone()"
 });
 formatter.result({
-  "duration": 724126400,
+  "duration": 692242800,
   "status": "passed"
 });
 formatter.match({
   "location": "UpdatePhoneSteps.the_message_from_the_update_is_displayed()"
 });
 formatter.result({
-  "duration": 36629500,
+  "duration": 44952700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 3044106500,
+  "duration": 3143060600,
   "status": "passed"
 });
 });

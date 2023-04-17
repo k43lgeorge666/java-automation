@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="23" failures="0" name="CucumberTest" time="12.71" errors="0" skipped="0">
+<testsuite tests="23" failures="0" name="CucumberTest" time="12.808" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
@@ -65,27 +65,27 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Scenario: Logout for a user account is successfully completed" name="Given user open the webapp" time="0.003"/>
-  <testcase classname="Scenario: Logout for a user account is successfully completed" name="When the user login in the web application" time="0.003"/>
+  <testcase classname="Scenario: Logout for a user account is successfully completed" name="Given user open the webapp" time="0.007"/>
+  <testcase classname="Scenario: Logout for a user account is successfully completed" name="When the user login in the web application" time="0"/>
   <testcase classname="Scenario: Logout for a user account is successfully completed" name="And the user selects the Logout option" time="0"/>
   <testcase classname="Scenario: Logout for a user account is successfully completed" name="Then the user should be logout successfully" time="0"/>
-  <testcase classname="Scenario: Logout for a user account is successfully completed" name="Scenario: Logout for a user account is successfully completed" time="3.081"/>
+  <testcase classname="Scenario: Logout for a user account is successfully completed" name="Scenario: Logout for a user account is successfully completed" time="3.266"/>
   <testcase classname="Scenario: Login for a user account is successfully completed" name="Given user open the web application" time="0"/>
   <testcase classname="Scenario: Login for a user account is successfully completed" name="When the user selects My Account tab option" time="0"/>
-  <testcase classname="Scenario: Login for a user account is successfully completed" name="And the user selects the Login option" time="0"/>
+  <testcase classname="Scenario: Login for a user account is successfully completed" name="And the user selects the Login option" time="0.001"/>
   <testcase classname="Scenario: Login for a user account is successfully completed" name="And the user provides email and password" time="0"/>
   <testcase classname="Scenario: Login for a user account is successfully completed" name="Then the user should be logged successfully" time="0"/>
-  <testcase classname="Scenario: Login for a user account is successfully completed" name="Scenario: Login for a user account is successfully completed" time="3.285"/>
+  <testcase classname="Scenario: Login for a user account is successfully completed" name="Scenario: Login for a user account is successfully completed" time="3.065"/>
   <testcase classname="Scenario: register for new user is successfully completed" name="Given user open the web page" time="0"/>
   <testcase classname="Scenario: register for new user is successfully completed" name="When the user goes to my account tab" time="0"/>
   <testcase classname="Scenario: register for new user is successfully completed" name="And the user selects the Register option" time="0"/>
   <testcase classname="Scenario: register for new user is successfully completed" name="And the user provides the required information" time="0"/>
   <testcase classname="Scenario: register for new user is successfully completed" name="Then the user should be notified that the account was created" time="0"/>
-  <testcase classname="Scenario: register for new user is successfully completed" name="Scenario: register for new user is successfully completed" time="3.296"/>
-  <testcase classname="Scenario: Update the phone for a user account is successfully completed" name="Given user open the web Page" time="0"/>
+  <testcase classname="Scenario: register for new user is successfully completed" name="Scenario: register for new user is successfully completed" time="3.319"/>
+  <testcase classname="Scenario: Update the phone for a user account is successfully completed" name="Given user open the web Page" time="0.006"/>
   <testcase classname="Scenario: Update the phone for a user account is successfully completed" name="When the user login into the web application" time="0"/>
   <testcase classname="Scenario: Update the phone for a user account is successfully completed" name="And the user selects the Edit Account option" time="0"/>
   <testcase classname="Scenario: Update the phone for a user account is successfully completed" name="And the user write the new phone number" time="0"/>
   <testcase classname="Scenario: Update the phone for a user account is successfully completed" name="Then the phone number from the account should be updated" time="0"/>
-  <testcase classname="Scenario: Update the phone for a user account is successfully completed" name="Scenario: Update the phone for a user account is successfully completed" time="3.042"/>
+  <testcase classname="Scenario: Update the phone for a user account is successfully completed" name="Scenario: Update the phone for a user account is successfully completed" time="3.144"/>
 </testsuite>

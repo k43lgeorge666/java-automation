@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LoginPageTest" duration-ms="10847" started-at="2023-04-17T09:49:59 BOT" finished-at="2023-04-17T09:50:09 BOT">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="10847" started-at="2023-04-17T09:49:59 BOT" finished-at="2023-04-17T09:50:09 BOT">
+      <class name="LoginPageTest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:LoginPageTest@7e0e6aa2]" name="Setup" is-config="true" duration-ms="7139" started-at="2023-04-17T09:49:59 BOT" finished-at="2023-04-17T09:50:06 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="Provide_credentials()[pri:1, instance:LoginPageTest@7e0e6aa2]" name="Provide_credentials" duration-ms="2779" started-at="2023-04-17T09:50:06 BOT" finished-at="2023-04-17T09:50:08 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Provide_credentials -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:LoginPageTest@7e0e6aa2]" name="CloseBrowser" is-config="true" duration-ms="895" started-at="2023-04-17T09:50:08 BOT" finished-at="2023-04-17T09:50:09 BOT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- LoginPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- LoginPageTest -->
+</testng-results>
