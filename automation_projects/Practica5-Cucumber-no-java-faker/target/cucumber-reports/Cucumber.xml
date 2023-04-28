@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="12.466" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="user sign up" name="user sign up successfully" time="12.283">
+<system-out><![CDATA[
+Given user open the web page................................................passed
+When the user goes to the create account tab................................passed
+And the user provides the required information..............................passed
+Then the user should be notified that the account was created...............passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,5 @@
+Pages\SignUp\SignUpPage.class
+Tests\SignUp\SignUpTest.class
+Util\HookDriver.class
+Pages\SignUp\SignUpServices.class
+CucumberTest.class

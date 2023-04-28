@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="26.405" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Login User account" name="user is able to login successfully" time="13.338">
+<system-out><![CDATA[
+Given user open the web application.........................................passed
+When the user goes to the Sign_In option....................................passed
+And the user provides the credentials.......................................passed
+Then the user account is logged successfully................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Register new user account" name="New user account is registered successfully" time="12.898">
+<system-out><![CDATA[
+Given user open the web page................................................passed
+When the user goes to the create account tab................................passed
+And the user provides the required information..............................passed
+Then the user should be notified that the account was created...............passed
+]]></system-out>
+</testcase>
+</testsuite>

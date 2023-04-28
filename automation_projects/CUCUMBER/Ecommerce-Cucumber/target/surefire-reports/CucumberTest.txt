@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: CucumberTest
 -------------------------------------------------------------------------------
-Tests run: 17, Failures: 0, Errors: 4, Skipped: 3, Time elapsed: 61.84 sec <<< FAILURE!
-And the user goes to the jackets page(Scenario: user buys a jacket successfully)  Time elapsed: 0.005 sec  <<< ERROR!
+Tests run: 17, Failures: 0, Errors: 4, Skipped: 3, Time elapsed: 61.439 sec <<< FAILURE!
+And the user goes to the jackets page(Scenario: user buys a jacket successfully)  Time elapsed: 0.039 sec  <<< ERROR!
 org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
 Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
 System info: host: 'DESKTOP-TKIFE1R', ip: '192.168.20.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
@@ -186,8 +186,8 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
 System info: host: 'DESKTOP-TKIFE1R', ip: '192.168.20.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5908, moz:profile: C:\Users\george\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 824803f7-177c-4fd9-a7c4-64c9107fa386
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1756, moz:profile: C:\Users\george\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3b1c0dae-170a-4b1b-95ec-833767e01e7a
 *** Element info: {Using=id, value=ui-id-5}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -212,7 +212,7 @@ Session ID: 824803f7-177c-4fd9-a7c4-64c9107fa386
 	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:82)
 	... 80 more
 
-Scenario: user buys a jacket successfully  Time elapsed: 0.005 sec  <<< ERROR!
+Scenario: user buys a jacket successfully  Time elapsed: 0.039 sec  <<< ERROR!
 org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
 Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
 System info: host: 'DESKTOP-TKIFE1R', ip: '192.168.20.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
@@ -396,8 +396,8 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
 System info: host: 'DESKTOP-TKIFE1R', ip: '192.168.20.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5908, moz:profile: C:\Users\george\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 824803f7-177c-4fd9-a7c4-64c9107fa386
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 1756, moz:profile: C:\Users\george\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3b1c0dae-170a-4b1b-95ec-833767e01e7a
 *** Element info: {Using=id, value=ui-id-5}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -422,14 +422,14 @@ Session ID: 824803f7-177c-4fd9-a7c4-64c9107fa386
 	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:82)
 	... 80 more
 
-Then the user should be notified that the account was created(Scenario: user sign up successfully)  Time elapsed: 0.104 sec  <<< ERROR!
+Then the user should be notified that the account was created(Scenario: user sign up successfully)  Time elapsed: 0.146 sec  <<< ERROR!
 org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[contains(text(),'Thank you for registering with Fake Online Clothing Store.')]
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
 System info: host: 'DESKTOP-TKIFE1R', ip: '192.168.20.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9292, moz:profile: C:\Users\george\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9649ca7e-fff4-4c1c-943e-fa5837210530
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9628, moz:profile: C:\Users\george\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 08e62f49-0972-4193-880a-5b8164e67612
 *** Element info: {Using=xpath, value=//div[contains(text(),'Thank you for registering with Fake Online Clothing Store.')]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -452,14 +452,14 @@ Session ID: 9649ca7e-fff4-4c1c-943e-fa5837210530
 	at StepDefinitions.SignUp.SignUpSteps.the_successful_message_should_be_displayed(SignUpSteps.java:34)
 	at ?.Then the user should be notified that the account was created(signup.feature:7)
 
-Scenario: user sign up successfully  Time elapsed: 0.104 sec  <<< ERROR!
+Scenario: user sign up successfully  Time elapsed: 0.146 sec  <<< ERROR!
 org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[contains(text(),'Thank you for registering with Fake Online Clothing Store.')]
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
 System info: host: 'DESKTOP-TKIFE1R', ip: '192.168.20.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9292, moz:profile: C:\Users\george\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 9649ca7e-fff4-4c1c-943e-fa5837210530
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 108.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20221215175817, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9628, moz:profile: C:\Users\george\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 08e62f49-0972-4193-880a-5b8164e67612
 *** Element info: {Using=xpath, value=//div[contains(text(),'Thank you for registering with Fake Online Clothing Store.')]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
